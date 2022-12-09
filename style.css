@@ -106,7 +106,7 @@ h1 {
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .galeria {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
@@ -117,7 +117,7 @@ h1 {
     }
 
     .light-box img {
-        width: 81vw !important;
+        width: 75vw !important;
     }
 }
 
