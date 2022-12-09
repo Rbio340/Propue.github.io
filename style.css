@@ -115,6 +115,11 @@ h1 {
         top: 20px;
         right: 20px;
     }
+
+    .light-box img {
+        width: 75vw;
+        max-height: 95vh;
+    }
 }
 
 /* img {
