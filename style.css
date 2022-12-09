@@ -71,8 +71,8 @@ h1 {
 }
 
 .light-box img {
-    width: 50vw;
-    max-height: 96vh;
+    width: 40vw;
+    max-height: 95vh;
 }
 
 .light-box:target {
