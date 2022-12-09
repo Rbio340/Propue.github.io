@@ -72,7 +72,7 @@ h1 {
 
 .light-box img {
     width: 50vw;
-    max-height: 95vh;
+    max-height: 96vh;
 }
 
 .light-box:target {
@@ -106,7 +106,7 @@ h1 {
     text-align: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .galeria {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
@@ -117,8 +117,7 @@ h1 {
     }
 
     .light-box img {
-        width: 105vw;
-        max-height: 95vh;
+        width: 105vw !important;
     }
 }
 
