@@ -106,7 +106,7 @@ h1 {
     text-align: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) and (min-width:300px) {
     .galeria {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
